@@ -1,0 +1,12 @@
+# Python dependencies for the RAG "chat with your documents" assistant.
+#   pip install -r requirements.txt
+#
+# Runs locally on Ollama. Pull the models once:
+#   ollama pull nomic-embed-text     # embeddings
+#   ollama pull qwen2.5:7b           # chat model
+
+langchain-core
+langchain-ollama
+numpy
+pypdf
+streamlit
